@@ -21,7 +21,7 @@ contract DividendPayingToken is ERC20, Ownable, DividendPayingTokenInterface, Di
   using SafeMathUint for uint256;
   using SafeMathInt for int256;
 
-  address public immutable MOONGAMES = address(0x957d2C3bFaD8fBcb91c1B700B6534A2ca028fA1c); //MOONGAMES
+  address public immutable MOONGAMES = address(0x42726bBae8200c1599E7Fd3487Bb480913eDdb61); //MOONGAMES
 
 
   // With `magnitude`, we can properly distribute dividends even if the amount of received ether is small.
